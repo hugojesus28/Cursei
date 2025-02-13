@@ -18,6 +18,56 @@ body{
 li{
     margin-bottom: 45px;
 }
+.frase-informacoes-visao-geral{
+    width: 95px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.div-meus-cursos-dashboard{
+    border: rgba(230, 230, 230, 1) solid 2px;
+    border-radius: 20px;
+}
+.div-info-cursos-dashboard{
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.div-info-cursos-dashboard h1{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+}
+.bnt-informacoes-cadastro-curso{
+    background-color: #FFFFFF;
+    color: #C2C2C2;
+    border:rgba(217, 217, 217, 0.4) solid 2px;
+    border-radius: 10px;
+    width: 142px;
+    height: 35px;
+}
+.bnt-informacoes-aberto-curso{
+    background-color: #FFFFFF;
+    color: #F29500;
+    border:rgba(242, 149, 0, 1) solid 2px;
+    border-radius: 10px;
+    width: 142px;
+    height: 35px;
+}
+.div-atividades-recentes{
+    width: 300px;
+    height: 365px;
+    border:rgba(217, 217, 217, 0.4) solid 2px;
+    border-radius: 25px;
+}
 
+.div-atividades-recentes h1{
+    font-size: 25px;
+}
+.div-atividades-recentes li{
+    line-height: 1.1;
+}
+.div-atividades-recentes ul li::marker{
+color: blue;
+font-size: 1.5rem;
+}
 
 
