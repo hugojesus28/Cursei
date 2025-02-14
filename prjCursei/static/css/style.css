@@ -14,9 +14,16 @@ body{
     width: 35px;
     height: 35px;
     object-fit: contain;
+    transition: 1s;
+
 }
 li{
     margin-bottom: 45px;
+
+}
+.img-nav:hover{
+    border-radius: 10px;
+    background-color: #53505034;
 }
 .frase-informacoes-visao-geral{
     width: 95px;
@@ -26,10 +33,14 @@ li{
 .div-meus-cursos-dashboard{
     border: rgba(230, 230, 230, 1) solid 2px;
     border-radius: 20px;
+    width:66%; 
+    height: 292px;
 }
 .div-info-cursos-dashboard{
     box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    width: 45%;
+    height: 55%;
 }
 .div-info-cursos-dashboard h1{
     padding-top: 10px;
@@ -51,6 +62,11 @@ li{
     border-radius: 10px;
     width: 142px;
     height: 35px;
+    transition: 0.5s;
+}
+.bnt-informacoes-aberto-curso:hover{
+background-color: #F29500;
+color: #fff;
 }
 .div-atividades-recentes{
     width: 300px;
@@ -70,4 +86,9 @@ color: blue;
 font-size: 1.5rem;
 }
 
+.texto-ver-todos{
+    font-size: 21px;
+    font-weight: 600;
+    color: #F29500;
+}
 
