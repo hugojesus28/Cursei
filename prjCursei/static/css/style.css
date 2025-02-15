@@ -15,8 +15,11 @@ body{
     height: 35px;
     object-fit: contain;
     transition: 1s;
+<<<<<<< HEAD
     font-size: 40px;
     color: black;
+=======
+>>>>>>> a7003b8b0352b0584aa37013b2135eea7f205e5e
 
 }
 li{
@@ -25,8 +28,12 @@ li{
 }
 .img-nav:hover{
     border-radius: 10px;
+<<<<<<< HEAD
     
     color: #F29500;
+=======
+    background-color: #53505034;
+>>>>>>> a7003b8b0352b0584aa37013b2135eea7f205e5e
 }
 .frase-informacoes-visao-geral{
     width: 95px;
@@ -100,9 +107,12 @@ font-size: 1.5rem;
     font-weight: 600;
     color: #F29500;
 }
+<<<<<<< HEAD
 .pesquisar-input{
     color: black;
     font-size: 25px;
+=======
+>>>>>>> a7003b8b0352b0584aa37013b2135eea7f205e5e
 
 }
 
