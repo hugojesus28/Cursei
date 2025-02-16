@@ -7,7 +7,7 @@ body{
 }
 .main{
     flex-grow: 1;
-    overflow: scroll;
+    
 }
 /*Estou utilizando as classes para ganhar tempo, estilizando uma classe para alterar diversas imagens(pufavo vitu não ache ruim */
 .img-nav{
@@ -15,7 +15,7 @@ body{
     height: 35px;
     object-fit: contain;
     transition: 1s;
-        font-size: 40px;
+    font-size: 40px;
     color: black;
 
 }
@@ -27,7 +27,6 @@ li{
     border-radius: 10px;
     
     color: #F29500;
-    background-color: #53505034;
 }
 .frase-informacoes-visao-geral{
     width: 95px;
@@ -101,11 +100,9 @@ font-size: 1.5rem;
     font-weight: 600;
     color: #F29500;
 }
-
 .pesquisar-input{
     color: black;
     font-size: 25px;
-
 
 }
 
@@ -115,23 +112,4 @@ font-size: 1.5rem;
     width: 100%;
     height: 15%;
     background-color: #F29500;
-}
-
-.div-eng-input-obj{
-    border-radius: 20px;
-    background-color: #fff;
-    height: 40px;
-
-}
-.input-page-candidatos{
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-}
-.img-input{
-    font-size: 20px;
-}
-.img-input:hover{
-    cursor: pointer;
 }
