@@ -13,70 +13,100 @@
 
 <body>
 
-    <!--Nav Bar Vertical Se Possivel, olhem o tamanho das imagens -->
-    <nav class="row  h-100 d-flex align-items-center "
-        style="width: 10%; box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.25); ">
-        <div class="w-100 h-25 d-flex justify-content-center align-items-center">
-            <img src="../../static/img/img-area-admin/logo-cursei2.png" alt=""
-                style="width: 60px; height: 60px; object-fit: contain;">
-        </div>
-
-        <div class="row h-75 w-100 d-flex align-items-center justify-content-center">
-            <ul style="list-style-type: none; ">
-                <li>
-                    <a href="../home/index.html"><i class="img-nav bi bi-house-door"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="img-nav bi bi-person"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="img-nav bi bi-people"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="img-nav bi bi-exclamation-octagon"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class=" img-nav bi bi-book"></i></a>
-                </li>
-            </ul>
-    </nav>
+    <nav class="row  h-100 d-xl-flex align-items-center d-none "
+    style="width: 10%; box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.25); ">
+    <div class="w-100 h-25 d-flex justify-content-center align-items-center">
+        <img src="../../static/img/img-area-admin/logo-cursei2.png" alt=""
+            style="width: 60px; height: 60px; object-fit: contain;">
     </div>
 
-    <!-- Conteudo do sistema, Ainda to rachando a cuca pra arrumar o layout. Então não estou mexendo com a responsividade ainda -->
-    <div class="main row-12 ">
-
-        <div class="col-12 mb-4">
-            <div class="col d-flex  w-100  mt-4  ">
-                <div class="d-flex align-items-center justify-content-start pl-5 w-50 ">
-                    <h1>Os seus, <span style="color: #F0800C;">Candidatos</span></h1>
-                </div>
-                <div class="d-flex align-items-center justify-content-end w-25 ">
-                    <img src="../../static/img/img-area-admin/Bell.png" alt=""
-                        style="object-fit: contain; width: 30px; height: 30px;">
-                </div>
-                <div class="w-25 d-flex align-items-center justify-content-center ">
-                    <img src="../../static/img/img-area-admin/img-perfil.png" alt="" style="object-fit: contain;">
-                    <span style="font-size: 20px; padding-left: 5%; font-weight: 600; ">Instituição</span>
-                </div>
+    <div class="row h-75 w-100 d-flex align-items-center justify-content-center">
+        <ul style="list-style-type: none; ">
+            <li>
+                <a href="../home/index.html"><i class="img-nav bi bi-house-door"></i></a>
+            </li>
+            <li>
+                <a href="../candidatos/index.html"><i class="img-nav bi bi-person"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="img-nav bi bi-people"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="img-nav bi bi-exclamation-octagon"></i></a>
+            </li>
+            <li>
+                <a href=""><i class=" img-nav bi bi-book"></i></a>
+            </li>
+        </ul>
+</nav>
+<div class="main row-12">
+    <div class="col-12 mb-4">
+        <div class="col d-flex  w-100  mt-4  ">
+            <div class="d-flex align-items-center justify-content-start pl-5 w-50 ">
+                <h1>Olá, <span style="color: #F0800C;">Instituição</span></h1>
+            </div>
+            <div class="d-flex align-items-center justify-content-end w-25 ">
+                <img src="../../static/img/img-area-admin/Bell.png" alt=""
+                    style="object-fit: contain; width: 30px; height: 30px;">
+            </div>
+            <div class="w-25 d-flex align-items-center justify-content-center ">
+                <img src="../../static/img/img-area-admin/img-perfil.png" alt="" style="object-fit: contain;">
+                <span style="font-size: 20px; padding-left: 5%; font-weight: 600; ">Instituição</span>
             </div>
         </div>
+    </div>
 
-        <div class="container-info-candidatos bg-primary  row-12 h-75" >
-            <div class="nav-info-candidatos  d-flex bg-danger " >
-                <ul class="lista-info-candidados" style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
-                    <li class="lista-info-candidatos">Cursos</li>
-                    <li class="lista-info-candidatos">Cursos</li>
-                    <li class="lista-info-candidatos">Cursos</li>
+ <div class="row-12 col-12 d-flex justify-content-center align-items-center">
 
-                </ul>
+
+        <div class="container-info-candidatos  d-flex row col-11 ">
+            <div class="nav-info-candidatos col-12 d-flex justify-content-between " style="height: 80px;">
+                <div class="div-lista  col-7 ">
+                    <ul class="lista-info-candidados-ul">
+                        <li class="lista-info-candidatos">Candidato</li>
+                        <li class="lista-info-candidatos">Email</li>
+                        <li class="lista-info-candidatos">Numero</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-4  h-100 d-flex align-items-center justify-content-start" >
+                    <div class="div-input-pesquisar-candidatos col-10  col d-flex align-items-center m-0 p-0 pl-3" >
+                        <i class="bi bi-search" style="font-size: 15px;"></i>
+                        <input class="input-pesquisar-candidatos w-100 h-100 pl-3" type="text" >
+                    </div>
+                </div>
             </div>
-           
+
+            <div class="w-100  row-12" style="border-left:  rgba(230, 230, 230, 1) solid 2px; border-right:  rgba(230, 230, 230, 1) solid 2px; border-bottom:  rgba(230, 230, 230, 1) solid 2px; border-bottom-right-radius: 20px;  border-bottom-left-radius: 20px;">
+
+                <div class="d-flex col-12 " style="height: 116px;">
+                    <div class="col-2 d-flex align-items-center justify-content-center">
+                        <img src="../../static/img/img-area-admin/img-perfil.png" alt="">
+                        <span>Nome</span>
+                    </div>
+                    <div class="col-3 bg-danger d-flex align-items-center justify-content-center " style="box-sizing: border-box; ">
+                        <span>diojasidjas</span>
+                    </div>
+                    <div class="col-3 bg-danger d-flex justify-content-center align-items-center " style="box-sizing: border-box; ">
+                        <span>ioasdojsa</span>
+                    </div>
+                    <div class="col-2 d-flex justify-content-between align-items-center">
+                        <button>ojasdpo</button>
+                        <button>odjaspd</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-
     </div>
 
 
+    
+
+
+    </div>
+   
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
