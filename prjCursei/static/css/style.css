@@ -7,7 +7,8 @@ body{
 }
 .main{
     flex-grow: 1;
-    overflow: scroll;
+    overflow: scroll    ;
+    
 }
 /*Estou utilizando as classes para ganhar tempo, estilizando uma classe para alterar diversas imagens(pufavo vitu não ache ruim */
 .img-nav{
@@ -106,42 +107,90 @@ font-size: 1.5rem;
 
 }
 
-.nav-info-candidatos{
-    
-    border: rgba(230, 230, 230, 1) solid 2px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
-.nav-info-candidatos .div-lista ul{
-    margin: 0;
-    padding: 0;
-    display:flex ;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    padding-top: 7%;
-    font-size: 28px;
-    justify-content: space-between;
-}
-
-.nav-info-candidatos .div-lista ul li{
-    list-style: none;
-    font-weight: 700;
-    color: black;
-}
-
-.input-pesquisar-candidatos{
-    outline: none;
-     border: none;
-     border-radius: 20px;
-     display: flex;
-     
-}
-
 .div-input-pesquisar-candidatos{
-    border: rgba(230, 230, 230, 1) solid 2px;
-    height: 35%; 
+    background-color: #fff;
+    border-radius: 50px;
+    width: 85%;
+    height: 45%;
+    border: 2px rgba(0, 0, 0, 0.1) solid;
+}
 
-    border-radius: 20px;
+.nav-info-candidatos{
+    box-sizing: border-box;
+    height: 80px;
+    border: 2px rgba(0, 0, 0, 0.1) solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.nav-info-candidatos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    list-style: none;
+    height: 80px;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.img-pesquisar-area-candidato{
+    font-size: 16px;
+}
+
+.input-pesquisar-area-candidatos{
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding-left: 7px ;
+}
+
+.container-conteudo-area-candidatos{
+    border-right:  2px rgba(0, 0, 0, 0.1) solid;
+    border-left:  2px rgba(0, 0, 0, 0.1) solid;
+    border-bottom:  2px rgba(0, 0, 0, 0.1) solid;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.div-conteudo-area-candidatos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+        width: 100%;
+    align-items: center;
+    list-style: none;
+    height: 80px;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    padding-top: 40px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.img-candidato-area-candidato{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.botao-confirmar-candidato{
+    border: none;
+    background-color: #448FFF;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+}
+
+.botao-excluir-candidato{
+    border: none;
+    background-color: #F29500;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
 }
